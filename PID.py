@@ -85,6 +85,8 @@ UpdateFlag = False
 mutex = threading.Lock()
 
 
+def Tesla():
+	print("Hello world")
 
 
 
