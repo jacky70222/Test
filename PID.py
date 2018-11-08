@@ -160,7 +160,7 @@ class FanControl:
 		self.KDTimer = 0
 
 
-class ADRC:
+class PID:
 	def __init__(self):
 		self.MinimumPWM = -1 * 20
 		self.SetPointOfSensor = [0] * 256
